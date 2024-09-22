@@ -1,0 +1,5 @@
+transformers
+torch           # For PyTorch backend (required by transformers)
+scikit-learn    # For evaluation metrics like accuracy
+pandas          # For handling datasets
+
