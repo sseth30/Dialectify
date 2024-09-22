@@ -25,25 +25,32 @@ Dialectify is a machine learning-based tool that detects and converts different 
 ```bash
 git clone https://github.com/sseth30/Dialectify.git
 cd Dialectify
-
+```
 ### 2. Set up a virtual environment (optional but recommended)
+```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
+```
 ### 3. Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ### 4. Running the code
 To train the model, run the following:
+```bash
 python3 src/ml/train_model.py
-
+```
 To predict the dialect of a sentence:
+```bash
 python3 src/ml/predict.py
-
+```
 ### For example:
 
 Sentence: I love the color of your car.
+```bash
 Predicted Dialect: American English
-
+```
 Sentence: I love the colour of your car.
+```bash
 Predicted Dialect: British English
+```
